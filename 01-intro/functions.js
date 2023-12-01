@@ -26,3 +26,12 @@ function defaultValue(val1) {
     return val1;
 }
 console.log(defaultValue());
+/*
+function defaultValueNo(val1: number){
+    return val1;
+}
+console.log(defaultValueNo());      // will show error as no argument is passed in function
+*/
+function returnNumber(num) {
+    return num;
+}

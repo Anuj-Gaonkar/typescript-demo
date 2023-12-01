@@ -39,3 +39,11 @@ function defaultValueNo(val1: number){
 }
 console.log(defaultValueNo());      // will show error as no argument is passed in function
 */
+
+function returnNumber(num: number): number {
+    return num;
+}
+
+function logError(errorMessage: string): void {
+    console.log(errorMessage);
+}
