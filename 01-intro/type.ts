@@ -12,7 +12,7 @@ type creditCardDetails = cardNumber & cardDate & {
 }
 
 type User = {
-    id: number;
+    readonly _id: number;
     name: string;
     email: string;
     isActive: boolean;
