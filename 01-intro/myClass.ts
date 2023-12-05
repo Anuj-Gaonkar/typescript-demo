@@ -38,3 +38,5 @@ class User2 {
 let newUser2 = new User2("Anuj", 1, "a@a.com");
 console.log(newUser2);
 newUser2.m()
+
+export {}
